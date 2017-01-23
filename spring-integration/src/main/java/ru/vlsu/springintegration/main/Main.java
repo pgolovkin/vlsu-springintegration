@@ -18,6 +18,5 @@ public class Main {
         MessageChannel inChannel = (MessageChannel) ctx.getBean("helloWorldInChannel");
         inChannel.send(message);
 
-
     }
 }
